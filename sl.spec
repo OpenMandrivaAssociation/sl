@@ -12,7 +12,6 @@ URL:            http://www.tkl.iis.u-tokyo.ac.jp/~toyoda/
 Source0:        http://www.tkl.iis.u-tokyo.ac.jp/~toyoda/sl/%{name}.tar.bz2
 Source1:        %{name}.en.1.bz2
 Patch0:		http://www.linet.gr.jp/~izumi/sl/%{name}5-1.patch
-BuildRoot:      %{_tmppath}/%{name}-%{version}
 BuildRequires:  ncurses-devel
 BuildRequires:  termcap-devel
 

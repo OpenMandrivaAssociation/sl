@@ -49,3 +49,40 @@ rm -rf %{buildroot}
 %{_mandir}/man1/*
 %{_mandir}/ja/man1/*
 
+
+
+%changelog
+* Tue Sep 08 2009 Thierry Vignaud <tvignaud@mandriva.com> 5.1-8mdv2010.0
++ Revision: 433920
+- rebuild
+
+* Sat Aug 02 2008 Thierry Vignaud <tvignaud@mandriva.com> 5.1-7mdv2009.0
++ Revision: 260782
+- rebuild
+
+* Tue Jul 29 2008 Thierry Vignaud <tvignaud@mandriva.com> 5.1-6mdv2009.0
++ Revision: 252563
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 5.1-4mdv2008.1
++ Revision: 127356
+- kill re-definition of %%buildroot on Pixel's request
+
+
+* Thu Oct 20 2005 Nicolas Lécureuil <neoclust@mandriva.org> 5.1-4mdk
+- Fix BuildRequires
+
+* Wed Oct 19 2005 Nicolas Lécureuil <neoclust@mandriva.org> 5.1-3mdk
+- Fix BuildRequires
+- %%mkrel
+
+* Sat Jun 11 2005 Guillaume Rousse <guillomovitch@mandriva.org> 5.1-2mdk 
+- fix man page
+- fix description and summary (Adam Williamson <awilliamson@mandriva.com>)
+
+* Fri Jun 10 2005 Guillaume Rousse <guillomovitch@mandriva.org> 5.1-1mdk 
+- first release, inspirated from gentoo
+
